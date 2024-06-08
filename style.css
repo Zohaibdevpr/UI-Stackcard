@@ -29,14 +29,19 @@ html, body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-image: url(https://media.istockphoto.com/id/1471918174/photo/abstract-background-multicolored-splashes-of-paint-3d-illustration.webp?b=1&s=170667a&w=0&k=20&c=dCTD24O7A5gDfYpGBEwoZRJ3UfxuW1QOI7eF_XfDCNo=);
+    background-image: url(https://images.unsplash.com/photo-1653507445935-4cc453d1a357?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTB8fGJhY2tncm91bmQlMjBncmFkaWVudCUyMCUyMGFic3RyYWN0JTIwcGFpbnRpbmd8ZW58MHx8MHx8fDA%3D);
     mask-image: linear-gradient(var(--direction), rgba(0,0,0,1) 40%, rgba(0,0,0,0) 60%);
     mask-position: 50% 50%;
-    opacity: 0.55;
     z-index: 1;
-    -webkit-box-shadow: 2px 3px 12px 4px #1429eb;
-    -moz-box-shadow: 2px 3px 12px 4px #f01212;
-    box-shadow: 2px 3px 12px 4px #1bfc1b;
+    box-shadow: 0 0 5px lightcyan,
+                0 0 25px salmon ;
+}
+.stack:hover{
+    box-shadow: 0 0 5px salmon, 
+                0 0 25px lightcyan,
+                0 0 50px red, 0 0 100px blue,
+                0 0 200px purple 
+                0 0 400px green;
 }
 .user{
     width: 100%;
