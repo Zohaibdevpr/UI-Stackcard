@@ -106,7 +106,7 @@ html, body{
     margin-top: 50px;
     padding: 0 4%;
 }
-.btn1{
+button{
     color: white;
     padding: 4% 6%;
     font-size: 0.80rem;
@@ -117,8 +117,11 @@ html, body{
     border-radius: 15px;
     font-weight: bold;
 }
-.btn1:hover{
+button:hover{
     color:orange  ;
+    box-shadow: 0 0 5px lightcyan,
+    0 0 25px salmon ;
+    cursor: pointer;
     
 }
 .follow i{
@@ -164,4 +167,3 @@ html, body{
 .follow i:hover{
     color: orange;
 }
-
